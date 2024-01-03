@@ -1,6 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillGoogleCircle,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -48,13 +53,31 @@ const Header = () => (
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Agbley">
-        <AiFillGithub size="3rem" />
+        <a
+          href="https://github.com/Agbley"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillGithub size="3rem" />
+        </a>
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/jill-agbley-a49b44138">
-        <AiFillLinkedin size="3rem" />
+        <a
+          href="https://www.linkedin.com/in/jill-agbley-a49b44138"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillLinkedin size="3rem" />
+        </a>
       </SocialIcons>
-      <SocialIcons href="http://instagram.com">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="https://docs.google.com/spreadsheets/d/1L2JABXPIJyVm8FGA1gUAfBGD-dRZopmH4fYKLxjLUpU/edit?usp=sharing">
+        <a
+          href="https://docs.google.com/spreadsheets/d/1L2JABXPIJyVm8FGA1gUAfBGD-dRZopmH4fYKLxjLUpU/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillGoogleCircle size="3rem" />
+        </a>
       </SocialIcons>
     </Div3>
   </Container>

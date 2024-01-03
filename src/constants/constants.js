@@ -4,21 +4,21 @@ export const projects = [
     description:
       "Fully responsive mordern UI/UX website in React.js developed by turning a figma design into a beautiful website.",
     image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
+    tags: ["React", "JavaScript"],
     source: "https://github.com/Agbley/gpt3_frontend",
     visit: "https://gpt3-frontend-virid.vercel.app/",
     id: 0,
   },
-  // {
-  //   title: "E-Commerce",
-  //   description:
-  //     "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-  //   image: "/images/2.png",
-  //   tags: ["React", "JavaScript"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 1,
-  // },
+  {
+    title: "Memories App",
+    description:
+      "This a fully fledged social media web app I am developing with mongoDB for the database, Express for the API routes, React.js for developing the UI components,Material UI for developing the UX and Node.js for developing the server for the web application to run on. This project consists of the CRUDE functionality. The project is also fully mobile responsive.",
+    image: "/images/2.png",
+    tags: ["Mongodb", "Express", "React.js", "Node.js"],
+    source: "https://github.com/Agbley/jill_memories_full_fledged_app",
+    visit: "https://jill-memories-full-fledged-app.vercel.app/",
+    id: 1,
+  },
   // {
   //   title: "WebRTC App",
   //   description:

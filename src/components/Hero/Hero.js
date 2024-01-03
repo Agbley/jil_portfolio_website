@@ -24,7 +24,14 @@ const Hero = () => (
         expertise bridge design and functionality, shaping captivating web
         experiences.{" "}
       </SectionText>
-      <Button onClick={() => (window.location = "http://google.com")}>
+      <Button
+        onClick={() =>
+          window.open(
+            "https://docs.google.com/spreadsheets/d/1L2JABXPIJyVm8FGA1gUAfBGD-dRZopmH4fYKLxjLUpU/edit?usp=sharing",
+            "_blank"
+          )
+        }
+      >
         Learn More
       </Button>
     </LeftSection>

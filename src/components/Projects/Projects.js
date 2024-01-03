@@ -34,6 +34,22 @@ const Projects = () => (
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
+            <div>
+              <TitleContent>Stack</TitleContent>
+              <TagList>
+                {tags.map((tag, i) => (
+                  <Tag key={i}>{tag}</Tag>
+                ))}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={visit} target="_blank">
+                Code
+              </ExternalLinks>
+              <ExternalLinks href={source} target="_blank">
+                Source
+              </ExternalLinks>
+            </UtilityList>
           </BlogCard>
         )
       )}
