@@ -22,6 +22,18 @@ const Technologies = () => (
       I've worked with a range of technologies in the web development world.
       From Back-end To Design..
     </SectionText>
+    <List>
+      <ListItem>
+        <DiCloudinary size="3rem" />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
   </Section>
 );
 
