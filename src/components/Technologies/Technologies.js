@@ -1,5 +1,6 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiMongodb, DiReact, DiZend } from "react-icons/di";
+import { FaInvision } from "react-icons/fa6";
 import {
   Section,
   SectionDivider,
@@ -24,12 +25,32 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiCloudinary size="3rem" />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
             React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiMongodb size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node.js and Databases
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <FaInvision  size="3rem" />
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            tools like Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
