@@ -1,6 +1,6 @@
 import React from "react";
-import { DiFirebase, DiMongodb, DiReact, DiZend } from "react-icons/di";
-import { FaInvision } from "react-icons/fa6";
+import { DiCss3, DiMongodb, DiReact } from "react-icons/di";
+
 import {
   Section,
   SectionDivider,
@@ -45,7 +45,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <FaInvision  size="3rem" />
+        <DiCss3 size="3rem" />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
