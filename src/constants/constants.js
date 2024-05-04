@@ -24,7 +24,7 @@ export const projects = [
     description: "This is a generative AI image editor",
     image: "/images/3.PNG",
     tags: ["Next.js", "Typescript", "React", "Shadcn"],
-    source: "https://google.com",
+    source: "https://github.com/Agbley/aisaasblueprint",
     visit: "https://aisaasblueprint.vercel.app",
     id: 2,
   },
