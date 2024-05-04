@@ -19,16 +19,15 @@ export const projects = [
     visit: "https://jill-memories-full-fledged-app.vercel.app/",
     id: 1,
   },
-  // {
-  //   title: "WebRTC App",
-  //   description:
-  //     "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //   image: "/images/3.jpg",
-  //   tags: ["React", "WebRTC"],
-  //   source: "https://google.com",
-  //   visit: "https://google.com",
-  //   id: 2,
-  // },
+  {
+    title: "WebRTC App",
+    description: "This is a generative AI image editor",
+    image: "/images/3.PNG",
+    tags: ["Next.js", "Typescript", "React", "Shadcn"],
+    source: "https://google.com",
+    visit: "https://aisaasblueprint.vercel.app",
+    id: 2,
+  },
   // {
   //   title: "Unichat",
   //   description:
